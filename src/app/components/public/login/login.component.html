@@ -1,0 +1,11 @@
+<div class="login">
+    <div class="form">
+      <form class="login-form">
+        <span class="material-icons">lock</span>
+        <input type="text" placeholder="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required/>
+        <input type="password" placeholder="password" required />
+        <button>login</button>
+      </form>  
+      <p class="message">Not registered? <a [routerLink]="['../register']" >Create an account</a></p>
+    </div>
+  </div>
